@@ -13,11 +13,22 @@ literary-editing-skills/
 ├── 01-structural-editing/          # Trama, ritmo, archi personaggi, worldbuilding, buchi di trama
 ├── 02-line-editing/                # Prosa, show vs tell, voce narrante, dialoghi, ritmo frasale
 ├── 03-copy-and-proofreading/       # Sintassi, coerenza terminologica, registro, micro-errori
+│   └── correttore-di-bozze-revisione-grammaticale.md
 ├── 04-beta-reader-personas/        # Agenti virtuali (lettore di genere, critico spietato, ecc.)
 ├── 05-workflows-and-pipelines/     # Pipeline multi-pass e sequenze di revisione
 ├── templates/                      # Template standard per nuove skills
 └── README.md
 ```
+
+---
+
+## Skills disponibili
+
+### 03-copy-and-proofreading
+
+| Skill | Versione | Descrizione breve |
+|-------|----------|-------------------|
+| [Correttore di Bozze e Revisione Grammaticale Narrativa](03-copy-and-proofreading/correttore-di-bozze-revisione-grammaticale.md) | 2.0 | Revisione conservativa: ortografia, refusi, punteggiatura, concordanze inequivocabili + standardizzazione dialoghi ai caporali. Richiede approvazione dell’autore prima della restituzione del testo definitivo. |
 
 ---
 
@@ -63,10 +74,11 @@ Ogni file `.md` rispetta rigorosamente questa struttura:
 - **Tracciabilità**: ogni skill dichiara esplicitamente i suoi input obbligatori e lo schema di output.
 - **Modularità**: le skills possono essere combinate in pipeline senza sovrapposizioni di responsabilità.
 - **Riduzione allucinazioni**: istruzioni step-by-step + few-shot + vincoli di output vincolanti.
+- **Conservazione della voce autoriale**: specialmente nelle skill di copy-editing (vedi protocollo anti-allucinazione e blocco applicazione automatica).
 
 ---
 
-## Primi 5 file essenziali proposti
+## Primi file essenziali ancora da creare
 
 1. `01-structural-editing/plot-structure-analysis.md`  
    Analisi della struttura narrativa (atto, plot points, arco di trasformazione)
@@ -94,6 +106,6 @@ Ogni file `.md` rispetta rigorosamente questa struttura:
 
 ---
 
-**Versione repository**: 0.1.0  
-**Ultimo aggiornamento**: 2026-09-12  
+**Versione repository**: 0.2.0  
+**Ultimo aggiornamento**: 2026-09-23  
 **Manutentore**: Senior Narrative Designer & Prompt Engineer
