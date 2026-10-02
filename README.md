@@ -10,14 +10,15 @@ Questa repository fornisce un framework completo e versionabile per la revisione
 
 ```
 literary-editing-skills/
-├── 01-structural-editing/          # Trama, ritmo, archi personaggi, worldbuilding, buchi di trama
-├── 02-line-editing/                # Prosa, show vs tell, voce narrante, dialoghi, ritmo frasale
-├── 03-copy-and-proofreading/       # Sintassi, coerenza terminologica, registro, micro-errori
-│   └── correttore-di-bozze-revisione-grammaticale.md
-├── 04-beta-reader-personas/        # Agenti virtuali (lettore di genere, critico spietato, ecc.)
-├── 05-workflows-and-pipelines/     # Pipeline multi-pass e sequenze di revisione
-├── templates/                      # Template standard per nuove skills
-└── README.md
+── 01-structural-editing/          # Trama, ritmo, archi personaggi, worldbuilding, buchi di trama
+── 02-line-editing/                # Prosa, show vs tell, voce narrante, dialoghi, ritmo frasale
+── 03-copy-and-proofreading/       # Sintassi, coerenza terminologica, registro, micro-errori
+│   ── correttore-di-bozze-revisione-grammaticale.md
+│   ── revisione-sintattica-struttura-frase.md
+── 04-beta-reader-personas/        # Agenti virtuali (lettore di genere, critico spietato, ecc.)
+── 05-workflows-and-pipelines/     # Pipeline multi-pass e sequenze di revisione
+── templates/                      # Template standard per nuove skills
+── README.md
 ```
 
 ---
@@ -29,6 +30,7 @@ literary-editing-skills/
 | Skill | Versione | Descrizione breve |
 |-------|----------|-------------------|
 | [Correttore di Bozze e Revisione Grammaticale Narrativa](03-copy-and-proofreading/correttore-di-bozze-revisione-grammaticale.md) | 2.0 | Revisione conservativa: ortografia, refusi, punteggiatura, concordanze inequivocabili + standardizzazione dialoghi ai caporali. Richiede approvazione dell’autore prima della restituzione del testo definitivo. |
+| [Revisione Sintattica e Struttura della Frase Narrativa](03-copy-and-proofreading/revisione-sintattica-struttura-frase.md) | 3.0 | Individua e corregge esclusivamente difetti strutturali e logico-sintattici (gerundi sospesi, relative, parallelismi, subordinate, anacoluti, ecc.) preservando lessico, voce, ritmo e scelte stilistiche. |
 
 ---
 
@@ -106,6 +108,6 @@ Ogni file `.md` rispetta rigorosamente questa struttura:
 
 ---
 
-**Versione repository**: 0.2.0  
-**Ultimo aggiornamento**: 2026-09-23  
+**Versione repository**: 0.3.0  
+**Ultimo aggiornamento**: 2026-10-02  
 **Manutentore**: Senior Narrative Designer & Prompt Engineer
